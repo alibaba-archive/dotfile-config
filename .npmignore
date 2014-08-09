@@ -1,0 +1,6 @@
+benchmark/
+test/
+cov/
+Makefile
+covrage.html
+example.js
