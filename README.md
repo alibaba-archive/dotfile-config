@@ -2,10 +2,7 @@ dotfile-config
 ---------------
 
 [![NPM version][npm-image]][npm-url]
-[![build status][travis-image]][travis-url]
-[![Test coverage][coveralls-image]][coveralls-url]
 [![Gittip][gittip-image]][gittip-url]
-[![David deps][david-image]][david-url]
 
 [npm-image]: https://img.shields.io/npm/v/dotfile-config.svg?style=flat
 [npm-url]: https://npmjs.org/package/dotfile-config
