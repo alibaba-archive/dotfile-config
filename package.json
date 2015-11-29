@@ -1,6 +1,6 @@
 {
   "name": "dotfile-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "get and set dotfile as a json config",
   "main": "index.js",
   "scripts": {
