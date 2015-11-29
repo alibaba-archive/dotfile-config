@@ -32,5 +32,12 @@ Config.prototype.get = function () {
 };
 
 Config.prototype.set = function (config) {
-  fs.writeFileSync(this.path, JSON.stringify(config, null, 2) + '\n');
+  if (process.env.USER === 'root') {
+    return;
+  }
+  try {
+    fs.writeFileSync(this.path, JSON.stringify(config, null, 2) + '\n');
+  } catch (err) {
+    return;
+  }
 };
